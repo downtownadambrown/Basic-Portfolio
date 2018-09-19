@@ -1,11 +1,14 @@
-html{
-    height:100%;
+html, body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    position: relative;
 }
 
 header {
     background-color: white;
     width: 100%;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 3px solid #999999;
 }
 
 .clearfix::after {
@@ -26,75 +29,99 @@ h1 {
     color: white;
     margin: auto;
     float: left;
-    padding: 25px 25px 25px 25px;
+    width: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 27px 0px 27px 0px;
+}
+
+h2 {
+    color: #999999;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;    
+    padding: 0px 0px 10px 0px;
+    border-bottom: 2px solid #999999;
 }
 
 nav {
-    float:left;
-    height: 100%; /*why is this not streching it? */
+    float:right;
+    height: 100%;
+    padding: 27px 0px 27px 0px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     overflow: hidden;
     background-color: white;
 }
 
 li {
     float: left;
+    border-right: 1px solid #bbb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
 }
 
 li a {
     display: block;
-    color: #777777;
+    color: #4aaaa5;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 15px 0px 15px;
     text-decoration: none;
 }
 
-.container-main {
-    width: 960px;  
-    height: 75%;
-    margin: 0 auto;
-    background-color: white;
-    color: #777777;
-    padding: 25px 25px 25px 25px;
+.lastlink {
+    border-right: 0px;
 }
 
 section {
     background-color: #b6b6b6;
-    /*background-image: url("/assets/images/bg.png");
-    background-repeat: repeat-y;*/
-
+    /*background:url('/assets/images/bg.png') no-repeat center top;*/
+    /*min-height: 100%;*/
+    overflow:hidden;
     width: 100%;
-    height: 75%;
-    padding: 30px 30px 30px 30px;
+    padding: 30px 0px 30px 0px;
 }
 
-h2 {
-    color: #4aaaa5;
-    margin: auto;
+.container-main {
+    width: 910px;  
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    color: #777777;
+    padding: 25px 25px 25px 25px;
+    position: relative;
 }
 
 footer {
     background-color: #777777;
     height: 50px;
     border-top: 5px solid #4aaaa5;
+    position: absolute;
+    bottom:0px;
+    width:100%;
 }
 
 h3 {
-    font-size: 10px;
+    font-size: 12px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 35px 0px 0px 0px;
 }
 
-img {
+.profilepic {
     float: left;
+    margin: 0px 25px 25px 0px;
 }
 
 p {
     float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 150%;
 }
 
