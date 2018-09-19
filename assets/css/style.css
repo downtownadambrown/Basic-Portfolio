@@ -1,3 +1,7 @@
+html{
+    height:100%;
+}
+
 header {
     background-color: white;
     width: 100%;
@@ -26,7 +30,7 @@ h1 {
 }
 
 nav {
-    float:right;
+    float:left;
     height: 100%; /*why is this not streching it? */
 }
 
@@ -52,10 +56,11 @@ li a {
 
 .container-main {
     width: 960px;  
-    height: 80%;
+    height: 75%;
     margin: 0 auto;
     background-color: white;
     color: #777777;
+    padding: 25px 25px 25px 25px;
 }
 
 section {
@@ -64,13 +69,13 @@ section {
     background-repeat: repeat-y;*/
 
     width: 100%;
-    padding: 30px 0 30px 0;
+    height: 75%;
+    padding: 30px 30px 30px 30px;
 }
 
 h2 {
     color: #4aaaa5;
     margin: auto;
-    padding: 25px 25px 25px 25px;
 }
 
 footer {
@@ -83,18 +88,13 @@ h3 {
     font-size: 10px;
     color: white;
     text-align: center;
-    padding-top:25px; /*feel like I cheated here*/
 }
 
-#mymug {
-    height: 200px;
-    width: 200px;
-    alt: "Adam Brown";
-    padding-left: 25px;
+img {
     float: left;
 }
 
 p {
     float: left;
-    padding-left: 25px;
 }
+
